@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEE84FB1C279513001F05B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE84FA1C279513001F05B6 /* main.m */; };
+		AEEE84FE1C279513001F05B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE84FD1C279513001F05B6 /* AppDelegate.m */; };
+		AEEE85011C279513001F05B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85001C279513001F05B6 /* ViewController.m */; };
+		AEEE85041C279513001F05B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE85021C279513001F05B6 /* Main.storyboard */; };
+		AEEE85061C279513001F05B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEE85051C279513001F05B6 /* Assets.xcassets */; };
+		AEEE85091C279513001F05B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE85071C279513001F05B6 /* LaunchScreen.storyboard */; };
+		AEEE85141C279514001F05B6 /* DataBaseManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85131C279514001F05B6 /* DataBaseManagerTests.m */; };
+		AEEE851F1C279514001F05B6 /* DataBaseManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE851E1C279514001F05B6 /* DataBaseManagerUITests.m */; };
+		AEEE853E1C27959F001F05B6 /* DBBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE853D1C27959F001F05B6 /* DBBaseController.m */; };
+		AEEE854A1C2795C4001F05B6 /* EGODatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85411C2795C4001F05B6 /* EGODatabase.m */; };
+		AEEE854B1C2795C4001F05B6 /* EGODatabaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85431C2795C4001F05B6 /* EGODatabaseRequest.m */; };
+		AEEE854C1C2795C4001F05B6 /* EGODatabaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85451C2795C4001F05B6 /* EGODatabaseResult.m */; };
+		AEEE854D1C2795C4001F05B6 /* EGODatabaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85481C2795C4001F05B6 /* EGODatabaseRow.m */; };
+		AEEE856A1C279885001F05B6 /* FMDatabase+FTS3.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85521C279885001F05B6 /* FMDatabase+FTS3.m */; };
+		AEEE856B1C279885001F05B6 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85541C279885001F05B6 /* FMTokenizers.m */; };
+		AEEE856C1C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85581C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		AEEE856E1C279885001F05B6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE855D1C279885001F05B6 /* FMDatabase.m */; };
+		AEEE856F1C279885001F05B6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE855F1C279885001F05B6 /* FMDatabaseAdditions.m */; };
+		AEEE85701C279885001F05B6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85611C279885001F05B6 /* FMDatabasePool.m */; };
+		AEEE85711C279885001F05B6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85631C279885001F05B6 /* FMDatabaseQueue.m */; };
+		AEEE85721C279885001F05B6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE85661C279885001F05B6 /* FMResultSet.m */; };
+		AEEE85751C279970001F05B6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEE85741C279970001F05B6 /* libsqlite3.0.tbd */; };
+		AEEE857B1C2799FA001F05B6 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE857A1C2799FA001F05B6 /* MyClass.m */; };
+		AEEE857E1C279AEC001F05B6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEE857D1C279AEC001F05B6 /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEEE85101C279514001F05B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEE84EE1C279513001F05B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE84F51C279513001F05B6;
+			remoteInfo = DataBaseManager;
+		};
+		AEEE851B1C279514001F05B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEE84EE1C279513001F05B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEE84F51C279513001F05B6;
+			remoteInfo = DataBaseManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEEE84F61C279513001F05B6 /* DataBaseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEE84FA1C279513001F05B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEEE84FC1C279513001F05B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEEE84FD1C279513001F05B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEEE84FF1C279513001F05B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEEE85001C279513001F05B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEEE85031C279513001F05B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEE85051C279513001F05B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEEE85081C279513001F05B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEE850A1C279513001F05B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEE850F1C279514001F05B6 /* DataBaseManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEE85131C279514001F05B6 /* DataBaseManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseManagerTests.m; sourceTree = "<group>"; };
+		AEEE85151C279514001F05B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEE851A1C279514001F05B6 /* DataBaseManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEE851E1C279514001F05B6 /* DataBaseManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseManagerUITests.m; sourceTree = "<group>"; };
+		AEEE85201C279514001F05B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEE853C1C27959F001F05B6 /* DBBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBBaseController.h; sourceTree = "<group>"; };
+		AEEE853D1C27959F001F05B6 /* DBBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBBaseController.m; sourceTree = "<group>"; };
+		AEEE85401C2795C4001F05B6 /* EGODatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabase.h; sourceTree = "<group>"; };
+		AEEE85411C2795C4001F05B6 /* EGODatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabase.m; sourceTree = "<group>"; };
+		AEEE85421C2795C4001F05B6 /* EGODatabaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRequest.h; sourceTree = "<group>"; };
+		AEEE85431C2795C4001F05B6 /* EGODatabaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRequest.m; sourceTree = "<group>"; };
+		AEEE85441C2795C4001F05B6 /* EGODatabaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseResult.h; sourceTree = "<group>"; };
+		AEEE85451C2795C4001F05B6 /* EGODatabaseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseResult.m; sourceTree = "<group>"; };
+		AEEE85461C2795C4001F05B6 /* EGODatabaseResult_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseResult_Internal.h; sourceTree = "<group>"; };
+		AEEE85471C2795C4001F05B6 /* EGODatabaseRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRow.h; sourceTree = "<group>"; };
+		AEEE85481C2795C4001F05B6 /* EGODatabaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRow.m; sourceTree = "<group>"; };
+		AEEE85491C2795C4001F05B6 /* EGODatabaseRow_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRow_Internal.h; sourceTree = "<group>"; };
+		AEEE85511C279885001F05B6 /* FMDatabase+FTS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+FTS3.h"; sourceTree = "<group>"; };
+		AEEE85521C279885001F05B6 /* FMDatabase+FTS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+FTS3.m"; sourceTree = "<group>"; };
+		AEEE85531C279885001F05B6 /* FMTokenizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTokenizers.h; sourceTree = "<group>"; };
+		AEEE85541C279885001F05B6 /* FMTokenizers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTokenizers.m; sourceTree = "<group>"; };
+		AEEE85551C279885001F05B6 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
+		AEEE85571C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		AEEE85581C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		AEEE855C1C279885001F05B6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AEEE855D1C279885001F05B6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AEEE855E1C279885001F05B6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AEEE855F1C279885001F05B6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AEEE85601C279885001F05B6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AEEE85611C279885001F05B6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AEEE85621C279885001F05B6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AEEE85631C279885001F05B6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AEEE85641C279885001F05B6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AEEE85651C279885001F05B6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AEEE85661C279885001F05B6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AEEE85741C279970001F05B6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AEEE85791C2799FA001F05B6 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		AEEE857A1C2799FA001F05B6 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		AEEE857C1C279AEC001F05B6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AEEE857D1C279AEC001F05B6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEE84F31C279513001F05B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEE85751C279970001F05B6 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE850C1C279514001F05B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE85171C279514001F05B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEE84ED1C279513001F05B6 = {
+			isa = PBXGroup;
+			children = (
+				AEEE85741C279970001F05B6 /* libsqlite3.0.tbd */,
+				AEEE84F81C279513001F05B6 /* DataBaseManager */,
+				AEEE85121C279514001F05B6 /* DataBaseManagerTests */,
+				AEEE851D1C279514001F05B6 /* DataBaseManagerUITests */,
+				AEEE84F71C279513001F05B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEE84F71C279513001F05B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE84F61C279513001F05B6 /* DataBaseManager.app */,
+				AEEE850F1C279514001F05B6 /* DataBaseManagerTests.xctest */,
+				AEEE851A1C279514001F05B6 /* DataBaseManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEE84F81C279513001F05B6 /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE854E1C279885001F05B6 /* FMDB */,
+				AEEE853F1C2795C4001F05B6 /* EGODatabase */,
+				AEEE853B1C27959F001F05B6 /* DBBaseController */,
+				AEEE85761C2799D9001F05B6 /* Model */,
+				AEEE84FC1C279513001F05B6 /* AppDelegate.h */,
+				AEEE84FD1C279513001F05B6 /* AppDelegate.m */,
+				AEEE84FF1C279513001F05B6 /* ViewController.h */,
+				AEEE85001C279513001F05B6 /* ViewController.m */,
+				AEEE85021C279513001F05B6 /* Main.storyboard */,
+				AEEE85051C279513001F05B6 /* Assets.xcassets */,
+				AEEE85071C279513001F05B6 /* LaunchScreen.storyboard */,
+				AEEE850A1C279513001F05B6 /* Info.plist */,
+				AEEE84F91C279513001F05B6 /* Supporting Files */,
+			);
+			path = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		AEEE84F91C279513001F05B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE84FA1C279513001F05B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEEE85121C279514001F05B6 /* DataBaseManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85131C279514001F05B6 /* DataBaseManagerTests.m */,
+				AEEE85151C279514001F05B6 /* Info.plist */,
+			);
+			path = DataBaseManagerTests;
+			sourceTree = "<group>";
+		};
+		AEEE851D1C279514001F05B6 /* DataBaseManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE851E1C279514001F05B6 /* DataBaseManagerUITests.m */,
+				AEEE85201C279514001F05B6 /* Info.plist */,
+			);
+			path = DataBaseManagerUITests;
+			sourceTree = "<group>";
+		};
+		AEEE853B1C27959F001F05B6 /* DBBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE853C1C27959F001F05B6 /* DBBaseController.h */,
+				AEEE853D1C27959F001F05B6 /* DBBaseController.m */,
+			);
+			path = DBBaseController;
+			sourceTree = "<group>";
+		};
+		AEEE853F1C2795C4001F05B6 /* EGODatabase */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85401C2795C4001F05B6 /* EGODatabase.h */,
+				AEEE85411C2795C4001F05B6 /* EGODatabase.m */,
+				AEEE85421C2795C4001F05B6 /* EGODatabaseRequest.h */,
+				AEEE85431C2795C4001F05B6 /* EGODatabaseRequest.m */,
+				AEEE85441C2795C4001F05B6 /* EGODatabaseResult.h */,
+				AEEE85451C2795C4001F05B6 /* EGODatabaseResult.m */,
+				AEEE85461C2795C4001F05B6 /* EGODatabaseResult_Internal.h */,
+				AEEE85471C2795C4001F05B6 /* EGODatabaseRow.h */,
+				AEEE85481C2795C4001F05B6 /* EGODatabaseRow.m */,
+				AEEE85491C2795C4001F05B6 /* EGODatabaseRow_Internal.h */,
+			);
+			path = EGODatabase;
+			sourceTree = "<group>";
+		};
+		AEEE854E1C279885001F05B6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE854F1C279885001F05B6 /* extra */,
+				AEEE855B1C279885001F05B6 /* fmdb */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		AEEE854F1C279885001F05B6 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85501C279885001F05B6 /* fts3 */,
+				AEEE85561C279885001F05B6 /* InMemoryOnDiskIO */,
+				AEEE85591C279885001F05B6 /* Swift extensions */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		AEEE85501C279885001F05B6 /* fts3 */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85511C279885001F05B6 /* FMDatabase+FTS3.h */,
+				AEEE85521C279885001F05B6 /* FMDatabase+FTS3.m */,
+				AEEE85531C279885001F05B6 /* FMTokenizers.h */,
+				AEEE85541C279885001F05B6 /* FMTokenizers.m */,
+				AEEE85551C279885001F05B6 /* fts3_tokenizer.h */,
+			);
+			path = fts3;
+			sourceTree = "<group>";
+		};
+		AEEE85561C279885001F05B6 /* InMemoryOnDiskIO */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85571C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.h */,
+				AEEE85581C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = InMemoryOnDiskIO;
+			sourceTree = "<group>";
+		};
+		AEEE85591C279885001F05B6 /* Swift extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Swift extensions";
+			sourceTree = "<group>";
+		};
+		AEEE855B1C279885001F05B6 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE855C1C279885001F05B6 /* FMDatabase.h */,
+				AEEE855D1C279885001F05B6 /* FMDatabase.m */,
+				AEEE855E1C279885001F05B6 /* FMDatabaseAdditions.h */,
+				AEEE855F1C279885001F05B6 /* FMDatabaseAdditions.m */,
+				AEEE85601C279885001F05B6 /* FMDatabasePool.h */,
+				AEEE85611C279885001F05B6 /* FMDatabasePool.m */,
+				AEEE85621C279885001F05B6 /* FMDatabaseQueue.h */,
+				AEEE85631C279885001F05B6 /* FMDatabaseQueue.m */,
+				AEEE85641C279885001F05B6 /* FMDB.h */,
+				AEEE85651C279885001F05B6 /* FMResultSet.h */,
+				AEEE85661C279885001F05B6 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		AEEE85761C2799D9001F05B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85771C2799D9001F05B6 /* DBBaseModel */,
+				AEEE85781C2799D9001F05B6 /* EGODatabaseModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEEE85771C2799D9001F05B6 /* DBBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE85791C2799FA001F05B6 /* MyClass.h */,
+				AEEE857A1C2799FA001F05B6 /* MyClass.m */,
+			);
+			path = DBBaseModel;
+			sourceTree = "<group>";
+		};
+		AEEE85781C2799D9001F05B6 /* EGODatabaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE857C1C279AEC001F05B6 /* User.h */,
+				AEEE857D1C279AEC001F05B6 /* User.m */,
+			);
+			path = EGODatabaseModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEE84F51C279513001F05B6 /* DataBaseManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEE85231C279514001F05B6 /* Build configuration list for PBXNativeTarget "DataBaseManager" */;
+			buildPhases = (
+				AEEE84F21C279513001F05B6 /* Sources */,
+				AEEE84F31C279513001F05B6 /* Frameworks */,
+				AEEE84F41C279513001F05B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBaseManager;
+			productName = DataBaseManager;
+			productReference = AEEE84F61C279513001F05B6 /* DataBaseManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEE850E1C279514001F05B6 /* DataBaseManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEE85261C279514001F05B6 /* Build configuration list for PBXNativeTarget "DataBaseManagerTests" */;
+			buildPhases = (
+				AEEE850B1C279514001F05B6 /* Sources */,
+				AEEE850C1C279514001F05B6 /* Frameworks */,
+				AEEE850D1C279514001F05B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEE85111C279514001F05B6 /* PBXTargetDependency */,
+			);
+			name = DataBaseManagerTests;
+			productName = DataBaseManagerTests;
+			productReference = AEEE850F1C279514001F05B6 /* DataBaseManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEEE85191C279514001F05B6 /* DataBaseManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEE85291C279514001F05B6 /* Build configuration list for PBXNativeTarget "DataBaseManagerUITests" */;
+			buildPhases = (
+				AEEE85161C279514001F05B6 /* Sources */,
+				AEEE85171C279514001F05B6 /* Frameworks */,
+				AEEE85181C279514001F05B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEE851C1C279514001F05B6 /* PBXTargetDependency */,
+			);
+			name = DataBaseManagerUITests;
+			productName = DataBaseManagerUITests;
+			productReference = AEEE851A1C279514001F05B6 /* DataBaseManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEE84EE1C279513001F05B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shancheli;
+				TargetAttributes = {
+					AEEE84F51C279513001F05B6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AEEE850E1C279514001F05B6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AEEE84F51C279513001F05B6;
+					};
+					AEEE85191C279514001F05B6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AEEE84F51C279513001F05B6;
+					};
+				};
+			};
+			buildConfigurationList = AEEE84F11C279513001F05B6 /* Build configuration list for PBXProject "DataBaseManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEE84ED1C279513001F05B6;
+			productRefGroup = AEEE84F71C279513001F05B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEE84F51C279513001F05B6 /* DataBaseManager */,
+				AEEE850E1C279514001F05B6 /* DataBaseManagerTests */,
+				AEEE85191C279514001F05B6 /* DataBaseManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEE84F41C279513001F05B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEE85091C279513001F05B6 /* LaunchScreen.storyboard in Resources */,
+				AEEE85061C279513001F05B6 /* Assets.xcassets in Resources */,
+				AEEE85041C279513001F05B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE850D1C279514001F05B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE85181C279514001F05B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEE84F21C279513001F05B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEE856C1C279885001F05B6 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				AEEE854A1C2795C4001F05B6 /* EGODatabase.m in Sources */,
+				AEEE857E1C279AEC001F05B6 /* User.m in Sources */,
+				AEEE856E1C279885001F05B6 /* FMDatabase.m in Sources */,
+				AEEE853E1C27959F001F05B6 /* DBBaseController.m in Sources */,
+				AEEE856F1C279885001F05B6 /* FMDatabaseAdditions.m in Sources */,
+				AEEE85011C279513001F05B6 /* ViewController.m in Sources */,
+				AEEE85701C279885001F05B6 /* FMDatabasePool.m in Sources */,
+				AEEE854D1C2795C4001F05B6 /* EGODatabaseRow.m in Sources */,
+				AEEE85711C279885001F05B6 /* FMDatabaseQueue.m in Sources */,
+				AEEE856B1C279885001F05B6 /* FMTokenizers.m in Sources */,
+				AEEE84FE1C279513001F05B6 /* AppDelegate.m in Sources */,
+				AEEE854B1C2795C4001F05B6 /* EGODatabaseRequest.m in Sources */,
+				AEEE85721C279885001F05B6 /* FMResultSet.m in Sources */,
+				AEEE857B1C2799FA001F05B6 /* MyClass.m in Sources */,
+				AEEE856A1C279885001F05B6 /* FMDatabase+FTS3.m in Sources */,
+				AEEE854C1C2795C4001F05B6 /* EGODatabaseResult.m in Sources */,
+				AEEE84FB1C279513001F05B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE850B1C279514001F05B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEE85141C279514001F05B6 /* DataBaseManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEE85161C279514001F05B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEE851F1C279514001F05B6 /* DataBaseManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEE85111C279514001F05B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEE84F51C279513001F05B6 /* DataBaseManager */;
+			targetProxy = AEEE85101C279514001F05B6 /* PBXContainerItemProxy */;
+		};
+		AEEE851C1C279514001F05B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEE84F51C279513001F05B6 /* DataBaseManager */;
+			targetProxy = AEEE851B1C279514001F05B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEEE85021C279513001F05B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEE85031C279513001F05B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEE85071C279513001F05B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEE85081C279513001F05B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEE85211C279514001F05B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEEE85221C279514001F05B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEE85241C279514001F05B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataBaseManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.DataBaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEEE85251C279514001F05B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataBaseManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.DataBaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEEE85271C279514001F05B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataBaseManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.DataBaseManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataBaseManager.app/DataBaseManager";
+			};
+			name = Debug;
+		};
+		AEEE85281C279514001F05B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataBaseManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.DataBaseManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataBaseManager.app/DataBaseManager";
+			};
+			name = Release;
+		};
+		AEEE852A1C279514001F05B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataBaseManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.DataBaseManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataBaseManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEEE852B1C279514001F05B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataBaseManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ii.DataBaseManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataBaseManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEE84F11C279513001F05B6 /* Build configuration list for PBXProject "DataBaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEE85211C279514001F05B6 /* Debug */,
+				AEEE85221C279514001F05B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEE85231C279514001F05B6 /* Build configuration list for PBXNativeTarget "DataBaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEE85241C279514001F05B6 /* Debug */,
+				AEEE85251C279514001F05B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEEE85261C279514001F05B6 /* Build configuration list for PBXNativeTarget "DataBaseManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEE85271C279514001F05B6 /* Debug */,
+				AEEE85281C279514001F05B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEEE85291C279514001F05B6 /* Build configuration list for PBXNativeTarget "DataBaseManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEE852A1C279514001F05B6 /* Debug */,
+				AEEE852B1C279514001F05B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEE84EE1C279513001F05B6 /* Project object */;
+}
